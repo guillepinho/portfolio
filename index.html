@@ -4,92 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Guille Pinho's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <style>
-        body {
-            background-color: #D3E9ED;
-            text-align: justify;
-            font-family: monospace;
-            list-style-position: inside;
-        }
-
-        .content {
-            max-width: 600px;
-            margin: auto;
-        }
-
-        #pic {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%
-        }
-
-        #title {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        h1 {
-            color: whitesmoke;
-            background-color: #171849;
-            text-align: center;
-        }
-
-        h2 {
-            color: whitesmoke;
-            background-color: #171849;
-            text-align: center;
-        }
-
-        #pst {
-            font-style: italic;
-        }
-
-        #name {
-            color: #20406A;
-        }
-
-        .adjectives {
-            color: #20406A;
-        }
-
-        .lists {
-            line-height: 20px;
-        }
-
-        .code {
-            font-size: 16px;
-        }
-
-        .do {
-            font-size: 12px;
-        }
-
-        .soft {
-            font-size: 18px;
-        }
-    </style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Mono&family=Roboto');
+        </style>
 </head>
 
 <body>
     <div class="content">
         <!-- HEADER -->
-        <h1 id="title">GUILHERME "GUILLE" PINHO</h6>
+        <h1 id="title">Guilherme "Guille" Pinho</h6>
             <img id="pic" width="300px"
                 alt="Guille Pinho's picture, looking pretty slick and cool, wearing shades and rocking out a goatee/mustache combo"
                 src="https://avatars.githubusercontent.com/u/100877596?s=400&u=3409ce08b5b2a26c44f45ee76c1b1955915d6882&v=4">
 
 
                 <!-- INDEX -->
-            <h2>My Portfolio Index</h2>
-            <ol>
-                <li><a href="#description">Description</a></li>
-                <li><a href="#listOfSkills">Skills</a></li>
-                <li><a href="#checks">Things to Check</a></li>
-                <li><a href="#pst">Psssst, hey!</a></li>
+            <h2 class="tops">My Portfolio Index</h2>
+            <ol id="index">
+                <li><a href="#description" class="links">Description</a></li>
+                <li><a href="#listOfSkills" class="links">Skills</a></li>
+                <li><a href="#checks" class="links">Things to Check</a></li>
+                <li><a href="#pst" class="links">Psssst, hey!</a></li>
             </ol>
 
               <!-- DESCRIPTION -->
-            <h2 id="description">Description</h2>
+            <h2 class="tops" id="description">Description</h2>
             <p><strong id="name">Guilherme "Guille" Pinho</strong> is a brazilian 29 year old aspiring Web Developer,
                 currently living in Recife, State of Pernambuco. <br><br>
                 Studying at <a href="https://www.betrybe.com">Trybe</a>. Loves sports (actually plays amateur Football
@@ -101,7 +41,7 @@
                 animations.</p>
 
                 <!-- SKILL LIST -->
-            <h2 id="listOfSkills">Wanna know my list of amazing skills?</h2>
+            <h2 class="tops" id="listOfSkills">Skills</h2>
             <ul class="lists">
                 <li class="code">JavaScript</li>
                 <li class="code">HTML5</li>
@@ -120,27 +60,27 @@
             </ul>
 
             <!-- CHECKS -->
-            <h2 id="checks">Things that I'd like you to check out</h2>
+            <h2 class="tops" id="checks">Check this!</h2>
             <ul class="lists">
-                <li>Wanna check my <a href="https://github.com/guillepinho" target="_blank">GitHub?</a></li>
-                <li>Wanna check my <a href="https://www.linkedin.com/in/guilherme-pinho-80762298/" target="_blank">LinkedIn?</a></li>
+                <li>Wanna check my <a href="https://github.com/guillepinho" class="links" target="_blank">GitHub?</a></li>
+                <li>Wanna check my <a href="https://www.linkedin.com/in/guilherme-pinho-80762298/" class="links" target="_blank">LinkedIn?</a></li>
                 <li>Wanna check my favorite project so far? It's the <a
-                        href="https://github.com/guillepinho/AstroBot" target="_blank">AstroBot</a>, I love it! It was intended to
+                        href="https://github.com/guillepinho/AstroBot" class="links" target="_blank">AstroBot</a>, I love it! It was intended to
                     moderate and entertain a community of 200 people on Discord. Started out as simple bot to practice
                     JavaScript, but ended up being a big thing with a lot of features and also games! My friends ended
                     up being my bosses, they ask for features, I deliver! Haha</li>
                 <li>Wanna check one of my favorite bloggers? It is <a
-                        href="https://www.youtube.com/c/FilipeDeschamps" target="_blank">Filipe Deschamps</a>, he talks a lot about
+                        href="https://www.youtube.com/c/FilipeDeschamps" class="links" target="_blank">Filipe Deschamps</a>, he talks a lot about
                     technology and developing, with a great tone, fluidity and entertainment. I could hear him talk for
                     hours.</li>
             </ul>
 
             <!-- FOOTER -->
-            <p id="pst"><br><br>Hey, you. Yeah, you. Wanna check my handsome face again? Click <a href="#pic">here</a>
+            <p id="pst"><br><br>Hey, you. Yeah, you. Wanna check my handsome face again? Click <a href="#pic" class="links" >here</a>
                 <br>
 
                 - Created on 05/03/2022 <br>
-                - Last edited on 05/05/2022
+                - Last edited on 06/05/2022
             </p>
     </div>
 </body>
