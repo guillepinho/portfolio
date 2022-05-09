@@ -4,10 +4,11 @@ body {
     font-family: 'Roboto Mono', monospace;
     list-style-position: inside;
     text-decoration: none;
-}
-
-#bg {
-    position: fixed;
+    background-image: url('../Images/smoke2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
 }
 
 a {
