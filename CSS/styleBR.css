@@ -1,0 +1,151 @@
+body {
+    background-color: #8f8f8f;
+    text-align: justify;
+    font-family: 'Roboto Mono', monospace;
+    list-style-position: inside;
+    text-decoration: none;
+}
+
+#bg {
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #2f2f60;
+    font-weight: bold;
+}
+
+#langs {
+    text-align: center;
+}
+
+#start {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+}
+
+#pic {
+    float: left;
+    width: 250px;
+    border: 4px solid white;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+#startText {
+    position: relative;
+}
+
+.content {
+    display: block;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1, h2 {
+    color: whitesmoke;
+    background-color: #2f2f60;
+    border: 4px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    line-height: 20px;
+    font-weight: 700;
+    margin: auto;
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+
+h1:hover, h2:hover {
+    background-color: #8c8dc3;
+    transition-delay: 0s;
+    transition-duration: 1s;
+}
+
+#title {
+    padding: 10px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tops {
+    padding: 10px 10px;
+    font-family: 'Roboto Mono', monospace;
+    width: 70%;
+}
+
+#index {
+    list-style-type: none;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.links {
+    text-decoration: none;
+    color: #171849;
+    font-weight: 600;
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+
+.links:hover {
+    color: #8c8dc3;
+    transition-delay: 0s;
+    transition-duration: 1s;
+}
+
+#pst {
+    font-style: italic;
+}
+
+#name {
+    color: #20406A;
+}
+
+.adjectives {
+    color: #20406A;
+}
+
+.lists {
+    line-height: 20px;
+}
+
+#divRyu {
+    display: block;
+    margin-bottom: 250px;
+}
+
+#ryu {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 1;
+    border: 4px;
+    border-radius: 4px;
+}
+
+#ryuGolpe {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 2;
+    opacity: 0;
+    transition: 2s;
+    transition-delay: 2s;
+    border: 4px;
+    border-radius: 4px;
+}
+
+#ryuGolpe:hover {
+    opacity: 100;
+    transition-delay: 0s;
+    transition: 2s;
+}
