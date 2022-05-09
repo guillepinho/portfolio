@@ -1,23 +1,49 @@
 body {
-    background-color: #cccccc;
+    background-color: #8f8f8f;
     text-align: justify;
     font-family: 'Roboto Mono', monospace;
     list-style-position: inside;
     text-decoration: none;
 }
 
-.content {
-    max-width: 600px;
-    margin: auto;
+#bg {
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: #2f2f60;
+    font-weight: bold;
+}
+
+#langs {
+    text-align: center;
+}
+
+#start {
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
 }
 
 #pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    float: left;
+    width: 250px;
+    border: 4px solid white;
     border-radius: 100%;
-    padding: 20px;
+    margin-right: 20px;
+}
+
+#startText {
+    position: relative;
+}
+
+.content {
+    display: block;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 h1, h2 {
@@ -32,6 +58,14 @@ h1, h2 {
     line-height: 20px;
     font-weight: 700;
     margin: auto;
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+
+h1:hover, h2:hover {
+    background-color: #8c8dc3;
+    transition-delay: 0s;
+    transition-duration: 1s;
 }
 
 #title {
@@ -42,7 +76,7 @@ h1, h2 {
 .tops {
     padding: 10px 10px;
     font-family: 'Roboto Mono', monospace;
-    width: 50%;
+    width: 70%;
 }
 
 #index {
@@ -51,12 +85,21 @@ h1, h2 {
     display: table;
     margin: 0 auto;
     padding: 20px;
+    font-size: 18px;
 }
 
 .links {
     text-decoration: none;
     color: #171849;
     font-weight: 600;
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+
+.links:hover {
+    color: #8c8dc3;
+    transition-delay: 0s;
+    transition-duration: 1s;
 }
 
 #pst {
@@ -75,14 +118,34 @@ h1, h2 {
     line-height: 20px;
 }
 
-.code {
-    font-size: 16px;
+#divRyu {
+    display: block;
+    margin-bottom: 250px;
 }
 
-.do {
-    font-size: 12px;
+#ryu {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 1;
+    border: 4px;
+    border-radius: 4px;
 }
 
-.soft {
-    font-size: 18px;
+#ryuGolpe {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0);
+    z-index: 2;
+    opacity: 0;
+    transition: 2s;
+    transition-delay: 2s;
+    border: 4px;
+    border-radius: 4px;
+}
+
+#ryuGolpe:hover {
+    opacity: 100;
+    transition-delay: 0s;
+    transition: 2s;
 }

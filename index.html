@@ -7,81 +7,85 @@
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Mono&family=Roboto');
-        </style>
+    </style>
 </head>
 
 <body>
-    <div class="content">
-        <!-- HEADER -->
+    <img id="bg" src="./Images/smoke2.png">
+    <!-- HEADER -->
+    <div id="langs"><a href="index.html"><img src="./Images/estados-unidos.png" width="50px"></a> <a href="indexBR.html"><img src="./Images/brasil.png" width="50px"></a></div>
+    <div id="start">
         <h1 id="title">Guilherme "Guille" Pinho</h6>
             <img id="pic" width="300px"
-                alt="Guille Pinho's picture, looking pretty slick and cool, wearing shades and rocking out a goatee/mustache combo"
+                alt="Guille Pinho's Picture, looking pretty slick and cool, wearing shades and rocking out a goatee/mustache combo"
                 src="https://avatars.githubusercontent.com/u/100877596?s=400&u=3409ce08b5b2a26c44f45ee76c1b1955915d6882&v=4">
+                <p id="startText">
+                    <strong id="name">Guilherme "Guille" Pinho</strong> is a brazilian 29 year old aspiring Web Developer, currently living in Recife, State of Pernambuco. <br><br>
+                    Studying at <a href="https://www.betrybe.com">Trybe</a>. Loves sports (actually plays amateur Football for the Recife Mariners, as a Wide Receiver), games and basically anything with a pint of competivity. <br><br>
+                    Has 3 dogs, all of them <strong class="adjectives">beautiful and handsome</strong> german shepards.<br><br>
+                    If you feel like this Portfolio is a bit ugly, is just 'cause we're learning, ok? I promise I'll update it later with some <strong class="adjectives">AMAZING</strong> effects and animations as we go through the course.
+                </p>
+    </div>
+    <div class="content">
+        <!-- INDEX -->
+        <h2 class="tops">My Portfolio Index</h2>
+        <ol id="index">
+            <li><a href="#startText" class="links">About Me</a></li>
+            <li><a href="#listOfSkills" class="links">Skills</a></li>
+            <li><a href="#checks" class="links">Things to Check</a></li>
+            <li><a href="#pst" class="links">Psssst, hey!</a></li>
+        </ol>
 
+        <!-- SKILL LIST -->
+        <h2 class="tops" id="listOfSkills">Skills</h2>
+        <ul class="lists">
+            <li>JavaScript</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Sports</li>
+            <li>Football (American one, eh?)</li>
+            <li>Talking about any topic... <em>really, any</em></li>
+            <li><strong>Leadership</strong></li>
+            <li>Competitive</li>
+            <li>Loyalty</li>
+            <li>Helpful</li>
+            <li>Did I mentioned that I'm basically pretty good in any games?</li>
+            <li>Oh, I also speak english fluently, but you may have noticed by now <em>:blush:</em></li>
+            <li>Ambitious</li>
+            <li>Making lists</li>
+        </ul>
 
-                <!-- INDEX -->
-            <h2 class="tops">My Portfolio Index</h2>
-            <ol id="index">
-                <li><a href="#description" class="links">Description</a></li>
-                <li><a href="#listOfSkills" class="links">Skills</a></li>
-                <li><a href="#checks" class="links">Things to Check</a></li>
-                <li><a href="#pst" class="links">Psssst, hey!</a></li>
-            </ol>
+        <!-- CHECKS -->
+        <h2 class="tops" id="checks">Check this!</h2>
+        <ul class="lists">
+            <li>Wanna check my <a href="https://github.com/guillepinho" class="links" target="_blank">GitHub?</a></li>
+            <li>Wanna check my <a href="https://www.linkedin.com/in/guilherme-pinho-80762298/" class="links"
+                    target="_blank">LinkedIn?</a></li>
+            <li>Wanna check my favorite project so far? It's the <a href="https://github.com/guillepinho/AstroBot"
+                    class="links" target="_blank">AstroBot</a>, I love it! It was intended to
+                moderate and entertain a community of 200 people on Discord. Started out as simple bot to practice
+                JavaScript, but ended up being a big thing with a lot of features and also games! My friends ended
+                up being my bosses, they ask for features, I deliver! Haha</li>
+            <li>Wanna check one of my favorite bloggers? It is <a href="https://www.youtube.com/c/FilipeDeschamps"
+                    class="links" target="_blank">Filipe Deschamps</a>, he talks a lot about
+                technology and developing, with a great tone, fluidity and entertainment. I could hear him talk for
+                hours.</li>
+        </ul>
 
-              <!-- DESCRIPTION -->
-            <h2 class="tops" id="description">Description</h2>
-            <p><strong id="name">Guilherme "Guille" Pinho</strong> is a brazilian 29 year old aspiring Web Developer,
-                currently living in Recife, State of Pernambuco. <br><br>
-                Studying at <a href="https://www.betrybe.com">Trybe</a>. Loves sports (actually plays amateur Football
-                for the Recife Mariners, as a Wide Receiver), games and basically anything with a pint of competivity.
-                Has 3 dogs, all of them <strong class="adjectives">beautiful and handsome</strong> german
-                shepards.<br><br>
-                If you feel like this Portfolio is a bit ugly, is just 'cause this is the first one we're doing, ok? I
-                promise I'll update it later with some <strong class="adjectives">AMAZING</strong> effects and
-                animations.</p>
+        <!-- FOOTER -->
+        <p id="pst"><br><br>Hey, you. Yeah, you. Wanna check my handsome face again? Click <a href="#pic"
+                class="links">here</a>
+            <br>
 
-                <!-- SKILL LIST -->
-            <h2 class="tops" id="listOfSkills">Skills</h2>
-            <ul class="lists">
-                <li class="code">JavaScript</li>
-                <li class="code">HTML5</li>
-                <li class="code">CSS</li>
-                <li class="do">Sports</li>
-                <li class="do">Football (American one, eh?)</li>
-                <li class="soft">Talking about any topic... <em>really, any</em></li>
-                <li class="soft"><strong>Leadership</strong></li>
-                <li class="soft">Competitive</li>
-                <li class="soft">Loyalty</li>
-                <li class="soft">Helpful</li>
-                <li class="do">Did I mentioned that I'm basically pretty good in any games?</li>
-                <li class="do">Oh, I also speak english fluently, but you may have noticed by now <em>:blush:</em></li>
-                <li class="soft">Ambitious</li>
-                <li class="do">Making lists</li>
-            </ul>
+            <div id="divRyu">
+                <p><em>Hover your mouse over Ryu? (:</em></p>
+                <img id="ryu" src="https://64.media.tumblr.com/36cb088540fcb0352bee1364f327d986/tumblr_npxx7e0NFt1r4184no2_500.gifv" width="250px">
+                <img id="ryuGolpe" src="https://64.media.tumblr.com/a0b9cd667120cf44eaa8f7742a25e1ea/tumblr_npxx7e0NFt1r4184no1_500.gifv" width="250px">
+            </div>
 
-            <!-- CHECKS -->
-            <h2 class="tops" id="checks">Check this!</h2>
-            <ul class="lists">
-                <li>Wanna check my <a href="https://github.com/guillepinho" class="links" target="_blank">GitHub?</a></li>
-                <li>Wanna check my <a href="https://www.linkedin.com/in/guilherme-pinho-80762298/" class="links" target="_blank">LinkedIn?</a></li>
-                <li>Wanna check my favorite project so far? It's the <a
-                        href="https://github.com/guillepinho/AstroBot" class="links" target="_blank">AstroBot</a>, I love it! It was intended to
-                    moderate and entertain a community of 200 people on Discord. Started out as simple bot to practice
-                    JavaScript, but ended up being a big thing with a lot of features and also games! My friends ended
-                    up being my bosses, they ask for features, I deliver! Haha</li>
-                <li>Wanna check one of my favorite bloggers? It is <a
-                        href="https://www.youtube.com/c/FilipeDeschamps" class="links" target="_blank">Filipe Deschamps</a>, he talks a lot about
-                    technology and developing, with a great tone, fluidity and entertainment. I could hear him talk for
-                    hours.</li>
-            </ul>
-
-            <!-- FOOTER -->
-            <p id="pst"><br><br>Hey, you. Yeah, you. Wanna check my handsome face again? Click <a href="#pic" class="links" >here</a>
-                <br>
-
-                - Created on 05/03/2022 <br>
-                - Last edited on 06/05/2022
-            </p>
+            - Created on 05/03/2022 <br>
+            - Last edited on 09/05/2022
+        </p>
     </div>
 </body>
 
